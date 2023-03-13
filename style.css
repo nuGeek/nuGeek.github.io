@@ -1,0 +1,38 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+#navbar {
+    /* background-color: black; */
+    color: white;
+    
+    list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: column;
+    align-items: stretch;
+    
+    text-align: center;
+    /* height: 50px; */
+} 
+
+#navbar li {
+    flex:1;
+    /* width: 25%; */
+    
+}
+
+#navbar a {
+    display: block;
+    padding: 10px 0px 10px 0px;
+    background-color: azure;
+    text-decoration: none;
+    
+}
+#navbar a:hover {
+    background-color: rgb(153, 153, 241);
+}
